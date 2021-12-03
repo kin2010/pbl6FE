@@ -1,0 +1,228 @@
+/* Typography */
+body,
+ul,
+li,
+p,
+a,
+label,
+input,
+div {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	color: rgb(17, 15, 15);
+	font-weight: 300;
+}
+a {
+	text-decoration: none !important;
+}
+body {
+	background-color: #525564;
+}
+#logo {
+	font-size: 50px;
+}
+.h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 48px !important;
+	font-weight: 200 !important;
+}
+.h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 30px !important;
+	font-weight: 300;
+}
+.h3 {
+	font-family: "Roboto", sans-serif;
+	font-size: 22px !important;
+}
+/* General */
+.logo {
+	font-weight: 500 !important;
+}
+.text-warning {
+	color: #ede861 !important;
+}
+.text-muted {
+	color: #bcbcbc !important;
+}
+.text-success {
+	color: #59ab6e !important;
+}
+.text-light {
+	color: #cfd6e1 !important;
+}
+.bg-dark {
+	background-color: #212934 !important;
+}
+.bg-light {
+	background-color: #e9eef5 !important;
+}
+.bg-black {
+	background-color: #1d242d !important;
+}
+.bg-success {
+	background-color: #59ab6e !important;
+}
+.btn-success {
+	background-color: #59ab6e !important;
+	border-color: #56ae6c !important;
+}
+.pagination .page-link:hover {
+	color: #000;
+}
+.pagination .page-link:hover,
+.pagination .page-link.active {
+	background-color: #69bb7e;
+	color: #fff;
+}
+/* Nav */
+#templatemo_nav_top {
+	min-height: 40px;
+}
+#templatemo_nav_top * {
+	font-size: 0.9em !important;
+}
+#templatemo_main_nav a {
+	color: #212934;
+}
+#templatemo_main_nav a:hover {
+	color: #69bb7e;
+}
+#templatemo_main_nav .navbar .nav-icon {
+	margin-right: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+.product-wap .h3,
+.product-wap li,
+.product-wap i,
+.product-wap p {
+	font-size: 12px !important;
+}
+.product-wap .product-color-dot {
+	width: 6px;
+	height: 6px;
+}
+
+.navbar {
+	position: fixed !important;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 400px;
+}
+/* Cart */
+.shopping-cart-content {
+	z-index: 999;
+
+	position: absolute;
+	top: 0;
+	transform: translate(-260px, 70px);
+	padding: 0 10px;
+	background: #fff;
+	width: 400px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	border-radius: 15px;
+	border: 1px solid #ebebeb;
+}
+.ul-cart {
+	overflow-y: auto;
+	max-height: 250px;
+}
+.single-shopping-cart {
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+
+	border-bottom: 1px solid #6d47b3;
+	padding: 20px 0;
+	padding-right: 10px;
+}
+.single-shopping-image {
+	width: 160px;
+	margin-right: 15px;
+	-webkit-box-shadow: -2px 5px 15px -3px #000000;
+	box-shadow: -2px 5px 15px -3px #000000;
+}
+.single-shopping-title {
+	display: flex;
+	flex-direction: column;
+}
+.single-shopping-title a {
+	color: rgb(0, 0, 0);
+}
+.img-fuild {
+	max-width: 100%;
+	height: auto;
+}
+
+.shopping-cart-total {
+	margin-left: 10%;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.shopping-cart-btn {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+/* .button-cart:active .shopping-cart-content {
+	visibility: visible;
+	transform: rotateX(0deg);
+	opacity: 1;
+} */
+
+.quatity {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	align-self: center;
+	justify-content: space-between;
+}
+.icon {
+	position: relative;
+	left: 20px;
+}
+
+@media (min-width: 576px) {
+	.tempaltemo-carousel .h1 {
+		font-size: 1em !important;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	#templatemo_main_nav .navbar-nav {
+		max-width: 450px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	#templatemo_main_nav .navbar-nav {
+		max-width: 550px;
+	}
+	#template-mo-zay-hero-carousel .carousel-item {
+		min-height: 30rem !important;
+	}
+	.product-wap .h3,
+	.product-wap li,
+	.product-wap i,
+	.product-wap p {
+		font-size: 18px !important;
+	}
+	.product-wap .product-color-dot {
+		width: 12px;
+		height: 12px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
